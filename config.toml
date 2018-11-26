@@ -1,0 +1,81 @@
+baseurl = "https://www.birdhouseparty.com/"
+title = "BirdHouseParty"
+theme = "hugo-nederburg-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+# disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+# googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 3 #frontpage pagination
+
+[params]
+  # Unmark to use post folder for images. Default is static folder.
+  usepostimgfolder = true
+  slogan = "for the birds...."
+  description = "Describe your website" # meta description
+  # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
+  author = "Bob White"
+  authorLink = "https://www.bobwhitemedia.com"
+  bio = [
+    "Bob is a good guys. This is the author bio shown after posts."
+  ]
+  copyright = [
+    "&copy; 2018 Bob White",
+    "Nederburg Hugo Theme by [Appernetic](https://appernetic.io).",
+    "A port of Tracks by Compete Themes."
+  ]
+
+
+  # Nav links in the side bar
+  [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "About"
+  url = "about/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Contact"
+  url = "contact/"
+  weight = 3
+
+# this will also be in author bio if there is no writer.
+  [params.social]
+  twitter       = "https://twitter.com/lg3bass"
+  instagram     = "https://www.instagram.com/lg3bass/"
+  github        = "https://github.com/lg3bass"
+  rss           = true
+
+#TODO - customize to add youTube
+  # youtube = "https://www.youtube.com/user/lg3bass"
+
+  # unused social media
+  # facebook      = "full Social profile url in facebook"
+  # googleplus    = "full profile url in googleplus"
+  # email         = "email@example.com"
+  # linkedin      = "full profile url in linkedin"
+  # stackoverflow = "full profile url in stackoverflow"
+  # pinterest     = "full profile url in pinterest"
+
+
+# Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
+  [params.writers]
+    [params.writers."Bob White"]
+    link = "https://www.bobwhitemedia.com"
+    email = "rlgw3@yahoo.com"
+    bio = [
+      "Bob White bio sentence shouldn't be that long."
+    ]
+    # facebook      = "full lukas profile url in facebook"
+    # googleplus    = "full profile url in googleplus"
+    twitter       = "https://twitter.com/lg3bass"
+  	instagram     = "https://www.instagram.com/lg3bass/"
+  	github        = "https://github.com/lg3bass"
+    # linkedin      = "full profile url in linkedin"
+    # stackoverflow = "full profile url in stackoverflow"
+    # pinterest     = "full profile url in pinterest"
+
