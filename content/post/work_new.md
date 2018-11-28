@@ -2,7 +2,7 @@
 date = 2018-11-27T22:45:31-05:00
 title = "Name of the work 1"
 writer = "Bob White"
-draft = true
+draft = false
 image = "template.jpg"
 showonlyimage = false
 categories = ["design"]
