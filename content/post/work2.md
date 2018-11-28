@@ -5,7 +5,7 @@ writer = "Bob White"
 draft = false
 image = "test2.jpg"
 showonlyimage = false
-categories = [ "apartment"]
+categories = ["apartment"]
 weight = 2
 description = "Fun at my Mom's for Thanksgiving"
 +++
