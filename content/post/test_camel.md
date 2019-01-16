@@ -41,3 +41,8 @@ Steps I used to create this post:
 14. found out that the folder you create if you use post folder image CAN'T be camelCase
 15. If you want to open a link in a new window you need to use html
 
+
+Steps to publish in Hugo
+
+1. 
+
