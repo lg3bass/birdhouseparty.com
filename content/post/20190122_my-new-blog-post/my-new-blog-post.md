@@ -66,6 +66,13 @@ description = "Creating a new blog post in gohugo.io"
 9. Finally, let's publish to git.  I have setup birdhouseparty.com so that once you publish to git it will automatically regenerate the site on birdhouseparty.com.  Easy.
 
 		//commit to github instructions
-		git status -S
+		git status -s
+		git add -A
+		// use the blog post folder for the commit message
+		git commit -m "20190122_my-new-blog-post"
+		git push
+		
+		//This should all work and in ~2 min you should see the content at https://www.birdhouseparty.com
+		
 		
 
