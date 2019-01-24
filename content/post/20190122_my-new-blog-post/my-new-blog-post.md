@@ -39,10 +39,10 @@ description = "Creating a new blog post in gohugo.io"
 		hugo new --kind post-bundle post/<date>_<title-no-spaces>
 		
 	For my blog I will be using the convention:
-	<date> = 20190122 
-	<title-no-spaces> = title should be all lowercase separated y hyphens.  for instance:  "my-new-blog-post".
-	
-	example: **20190122_my-new-blog-post**
+	* \<date\> = "20190122" 
+	* \<title-no-spaces\> = "my-new-blog-post" 
+		- title should be all lowercase separated y hyphens.	
+	* example: **20190122_my-new-blog-post**
 	
 6. By default a blog post folder will be created in the post/ folder. Inside the "20190122_my-new-blog-post" folder will be folder called "work_new" and markdown file called "work_new.md".   Change the name of the folder and .md file to match.  Generally I would use the second part of the name you used to create the post.  e.g. "my-new-blog-post".
 
