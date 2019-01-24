@@ -13,17 +13,16 @@ weight = 1
 description = "Creating a new blog post in gohugo.io"
 +++
 
-###Quick steps to create a blog post:
-
-* create new blog post from template
-* edit the .md file
-* check with hugo server -D (drafts enabled)
-* push to git
+| QUICK SUMMARY |
+| :--- |
+| 1. create new blog post from template |
+| 2. edit the .md file |
+| 3. check with hugo server -D (drafts enabled) |
+| 4. push to git |
 	
-
 <!--more-->
 
-###Detailed Instructions
+### Detailed Instructions
 
 1. Check the <https://www.birthouseparty.com> to make sure your is has been updated. 
 2. Start the local server at <http://localhost:1313> to see the local changes and determine where you left off. 

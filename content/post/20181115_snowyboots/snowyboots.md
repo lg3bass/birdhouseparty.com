@@ -1,30 +1,36 @@
 +++
 date = 2018-11-28T22:01:49-05:00
-title = "20181115_snowyBoots"
+title = "snowyboots"
 writer = "Bob White"
 draft = false
 image = "20181115snowyBoots.jpg"
 showonlyimage = false
-categories = ["design"]
+categories = ["birdhouse"]
 keywords = ["key", "words"]
 topics = ["topic 1"]
-tags = ["one", "two"]
+tags = ["houdini", "openframeworks", "VMM"]
 weight = 1
-description = "This is a test to see how time consuming it is to create a post.  Even with hugo."
+description = "Created on a snowy day in November."
 +++
 
-Test of creating a post from scratch.
-
-<ul>
-<li><a href="https://www.instagram.com/p/Bqvu0pUHhav/" target="_blank">Instagram</a></li>
-<li><a href="https://github.com/lg3bass/20181115_snowyBoots" target="_blank">Github</a></li>
-</ul>
+| DATE | URL | DESCRIPTION |
+| :--- | :--- | :--- |
+| 20181128 | [Instagram](https://www.instagram.com/p/Bqvu0pUHhav/) | VMM/Ableton rough draft |
+| 20181128 | [github](https://github.com/lg3bass/20181115_snowyBoots) | git archive |
 
 <!--more-->
 
-Steps I used to create this post:
+## 2019-01-23
 
+#### Changelog
+* changed the name and organization of the blog post folder.  
+* NOTE: emember to *NOT* use camelCase.
+* updated tags
+* converted splash to table
 
+## 2018-11-28
+
+#### Listing the steps I used to create this post:
 1. Opened existing project
 2. Rendered existing project from VMM
 3. Created a video in after effects
@@ -42,9 +48,10 @@ Steps I used to create this post:
 15. If you want to open a link in a new window you need to use html
 
 
-Steps to publish in Hugo
-
+#### Listing steps to publish in Hugo
 1. edit the .md file
 2. confirm with `hugo server -D"
 3. push to github.
+
+
 
