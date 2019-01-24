@@ -44,5 +44,7 @@ Steps I used to create this post:
 
 Steps to publish in Hugo
 
-1. 
+1. edit the .md file
+2. confirm with `hugo server -D"
+3. push to github.
 
