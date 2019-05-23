@@ -1,3 +1,4 @@
 #development directory
 dev/
 public/
+.DS_Store
